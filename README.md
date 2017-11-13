@@ -1,2 +1,2 @@
 # Cardio-HeXard-Care
-Cardiogramme en C utilisant Github
+Cardiogramme en C Arduino utilisant Github
