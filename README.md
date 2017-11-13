@@ -1,2 +1,2 @@
 # Cardio-HeXard-Care
-Cardiogramme collaboratif en C utilisant Github
+Cardiogramme en C utilisant Github
