@@ -5,9 +5,18 @@
 
 int menu(){
     int choix;
-    printf("Menu : \nChoisissez le mode de clignotement des LED :\n -1.Remplissage progressif \n -2.Clignotement total \n -3.Chenille \n -4.Une LED sur deux \n -5.Une LED sur trois \n -6.Une LED sur quatre \n -7.Choisir la LED \x85 allumer \n -8.Roue infinie \n -9.Remplissage/D\x82remplissage\n");
-    scanf("%i",&choix); // Demande à l'utilisateur le mode de clignotement
-    //Permet de sélectionner le programme voulu
+    printf("Menu : \nChoisissez le mode de clignotement des LEDs :\n");
+    printf("-1. Remplissage progressif\n");
+    printf("-2. Clignotement total\n");
+    printf("-3. Chenille\n");
+    printf("-4. Une LED sur deux\n");
+    printf("-5. Une LED sur trois\n");
+    printf("-6. Une LED sur quatre\n");
+    printf("-7. Choisir la LED %c allume\nr", 133);
+    printf("-8. Roue infinie\n");
+    printf("-9.Remplissage / D%cremplissage\n", 130);
+    scanf("%i",&choix); // Demande Ã  l'utilisateur le mode de clignotement
+    //Permet de sÃ©lectionner le programme voulu
     switch(choix){
         //Mode 1 : Clignotement progressif
         case 1:
@@ -41,15 +50,15 @@ int menu(){
         case 8:
             printf("\nConfiguration sur le mode de clignotement : Roue infinie");
             break;
-        //Mode 9 : Déremplissage
+        //Mode 9 : DÃ©remplissage
         case 9:
-            printf("\nConfiguration sur le mode de clignotement : Remplissage & D\x82remplissage");
+            printf("\nConfiguration sur le mode de clignotement : Remplissage & D%cremplissage", 130);
             break;
-        //Autre résultat : Le programme reçoit un autre nombre que celui demandé.
+        //Autre rÃ©sultat : Le programme reÃ§oit un autre nombre que celui demandÃ©.
         default:
-            printf("\nERREUR : Le nombre entr\x82 n'est pas propos\x82 ! Merci de r\x82""essayer ... \n\n");
+            printf("\nERREUR : Le nombre entr%c n'est pas propos%c ! Merci de r%cessayer ... \n\n", 130, 130, 130);
             menu();
             break;
     }
-    return choix; // Le programme renvoie la valeur du choix demandée au début du programme
+    return choix; // Le programme renvoie la valeur du choix demandÃ© en dÃ©but du programme
 }
