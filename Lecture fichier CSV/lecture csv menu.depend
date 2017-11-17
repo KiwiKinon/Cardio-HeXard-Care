@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1510847815 source:d:\cours\projet 1\programme arduino\lecture csv menu\main.c
+	<stdio.h>
+	<stdlib.h>
+	"main.h"
+
+1510837824 d:\cours\projet 1\programme arduino\lecture csv menu\lecture.h
+
+1510840990 d:\cours\projet 1\programme arduino\lecture csv menu\main.h
+
+1510908663 source:d:\cours\projet 1\programme arduino\programme c\main.c
+	<stdio.h>
+	<stdlib.h>
+	"main.h"
+
+1510906351 d:\cours\projet 1\programme arduino\programme c\main.h
+
